@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in - Right Mindset</title>
+    <link rel="shortcut icon" href="assets/images/icon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+            <a href="../../index.html"><img class="logo" src="../images/logo.png" alt="Right Mindset Logo"></a> 
+            </div>
+        </nav>
+    </header>
+    <div class="loginForm">
+        <form action="action_page.php" method="post">
+          <div class="titulo">
+            <h2>Entrar</h2>
+          </div>
+          <div class="formItem">
+            <input type="email" placeholder="Email" name="uname" required>
+            <input id="password" type="password" placeholder="Palavra-passe" name="psw" required>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Lembar-me palavra-passe
+              </label>
+            <button type="submit">Entrar</button>
+            <span class="psw"><a href="#">Esqueceu a palavra-passe?</a></span>
+          </div>
+          <div class="esqueceu">
+            <span class="criar">Não tem uma conta? <a href="#">Criar conta</a></span>
+          </div>
+        </form>
+      </div> 
+</body>
+</html>
